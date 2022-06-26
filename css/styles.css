@@ -37,7 +37,7 @@ body{
     padding: 0;
 }
 .encabezado{
-
+   display:block;
 background-color: ghostwhite;;
 
 }
@@ -132,6 +132,7 @@ background-color: white;
 
 #content{
     width: 1000px;
+       display:block;
     min-height: 500px; /*alto minimo*/
     background-color: floralwhite;
     margin:0px auto 0 auto; 
@@ -193,7 +194,8 @@ p:first-of-type::first-letter{
 #social a {
     width: 0px;
     height: 0px;
-    display: flex;
+       display:block;
+/*     display: flex; */
     color: black;
     text-align: left;
     line-height: 30px;
@@ -209,7 +211,8 @@ footer{
     background: black;
     padding:20px 30px;
     color:white;
-    display: flex;
+       display:block;
+/*     display: flex; */
     justify-content: space-between;
     position: relative;
     bottom: 0px;
