@@ -44,8 +44,8 @@ background-color: ghostwhite;;
 
 
 .encabezado img{
-    width: 900px;
-    margin-left: 8%;
+    width: 100px;
+/*     margin-left: 8%; */
     align-items: center;
     display: flex;
     padding: 12px 20px;
@@ -64,7 +64,7 @@ background-color: ghostwhite;;
 .encabezado nav ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+/*     justify-content: space-between; */
     position: relative;
 }
 
@@ -135,6 +135,7 @@ background-color: white;
     min-height: 500px; /*alto minimo*/
     background-color: floralwhite;
     margin:0px auto 0 auto; 
+    flex-direction: column ;
     padding: 45px 65px 0 65px;
 }
 
