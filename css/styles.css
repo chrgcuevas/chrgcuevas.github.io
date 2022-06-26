@@ -43,9 +43,9 @@ background-color: ghostwhite;;
 
 
 .encabezado img{
-    width: 160px;
+    width: 900px;
     margin-left: 8%;
-    align-items: left;
+    align-items: center;
     display: flex;
     padding: 12px 20px;
     margin: 5px;
