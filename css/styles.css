@@ -47,7 +47,7 @@ background-color: ghostwhite;;
     margin-left: 8%;
     align-items: left;
     display: flex;
-    padding: 25px;
+    padding: 0px;
     margin: 5px;
 
 }
@@ -56,7 +56,7 @@ background-color: ghostwhite;;
     display: flex;
     justify-content: space-around;
     align-items: right;
-    padding: 25px;
+    padding: 0px;
 }
 
 .encabezado nav ul{
@@ -68,7 +68,7 @@ background-color: ghostwhite;;
 a{
 
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: orangered;
     padding: 12px 20px;
     display: block;
