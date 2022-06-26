@@ -3,11 +3,16 @@ body{
 
     border: 4px solid black;
     background-color: navajowhite;
-/*     display: flex; */
-/*     flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
 /* 
 .in-flex {
     flex: 1;
