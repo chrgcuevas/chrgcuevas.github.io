@@ -4,15 +4,15 @@ body{
     border: 4px solid black;
     background-color: navajowhite;
     display: flex;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
 
 }
 
-
+/* 
 .in-flex {
     flex: 1;
     min-width: 1200px;
-}
+} */
 
 
 
