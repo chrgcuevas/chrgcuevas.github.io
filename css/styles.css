@@ -1,0 +1,202 @@
+/*============== GENERAL ===============*/
+body{
+
+    border: 4px solid black;
+    background-color: navajowhite;
+
+}
+
+
+
+
+
+
+.unstyled-list{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*============== HEADER ===============*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+
+background-color: ghostwhite;;
+
+}
+
+
+.encabezado img{
+    width: 260px;
+    margin-left: 8%;
+    align-items: left;
+    display: flex;
+    padding: 0;
+    margin: 5;
+
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    padding: 0px;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+
+    text-decoration: none;
+    font-size: 25px;
+    color: orangered;
+    padding: 12px 20px;
+    display: block;
+}
+
+a:hover{
+    background: rgb(44, 44, 44);
+}
+
+
+.encabezado nav ul li ul{
+display: flex;
+flex-direction: column ;
+position: absolute;
+}
+
+.encabezado nav ul li ul{
+
+position: absolute;
+background-color: white;
+}
+
+.encabezado nav ul li ul li{
+ width: 180px;
+ position: relative;
+}
+
+.encabezado nav ul li ul li ul{
+ top: 0;
+ left: 180px;
+ position: absolute;
+ 
+}
+
+.encabezado nav ul li ul{
+ display: none;
+}
+
+
+.encabezado nav ul li:hover > ul{
+ display: block;
+}
+
+
+
+.slider, .slides {
+    height: 900px !important;
+    margin-bottom: 50px;
+ }
+
+.slider .indicators{
+    z-index: 10;
+    bottom: 50px;
+    
+}
+/*============== CONTENT ===============*/
+
+
+#content{
+    width: 1020px;
+    min-height: 500px; /*alto minimo*/
+    background-color: floralwhite;
+    margin:0px auto 0 auto; 
+    padding: 45px 65px 0 65px;
+}
+
+#content h1, #content h2, #content h3{
+font-family: 'Yeseva One', cursive;
+text-align: center;
+}
+
+#content h1{
+font-size: 50px;
+color: #c6b18d;
+}
+
+/*para la linea que cae debajo del texto de stella artois*/
+#content h1 span{
+    width: 8%;
+    height: 2px;
+    background-color: #c6b18d;
+    display: block;
+    margin: auto;
+}
+
+#content img{
+    width: 900px;
+    margin-left: 05%;
+    align-items: center;
+    display: block;
+    padding: 5;
+    margin: 5;
+
+}
+}
+
+#content h2{
+    font-size: 52px;
+    }
+
+p{
+    padding: 0 120px;
+}
+
+p:first-of-type::first-letter{
+    font-size: 50px;
+    padding: 0 10px 10px 0;
+    font-weight: bold;
+}
+    
+#social {
+    width: 950px;
+    margin: 50px auto 25px auto;
+     /*margin: 204px auto 225px auto;*/
+
+}
+
+#social a {
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    color: black;
+    text-align: left;
+    line-height: 30px;
+}
+
+
+
+/*============== FOOTER ===============*/
+footer{
+    width: auto;
+    margin: auto;
+    background: black;
+    padding:20px 30px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0px;
+
+}
