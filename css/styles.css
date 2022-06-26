@@ -42,7 +42,7 @@ background-color: ghostwhite;;
     margin-left: 8%;
     align-items: left;
     display: flex;
-    padding: 25px;
+    padding: 300px;
     margin: 5px;
 
 }
@@ -51,7 +51,7 @@ background-color: ghostwhite;;
     display: flex;
     justify-content: space-around;
     align-items: right;
-    padding: 25px;
+    padding: 300px;
 }
 
 .encabezado nav ul{
@@ -123,7 +123,7 @@ background-color: white;
 
 
 #content{
-    width: 1020px;
+    width: 800px;
     min-height: 500px; /*alto minimo*/
     background-color: floralwhite;
     margin:0px auto 0 auto; 
