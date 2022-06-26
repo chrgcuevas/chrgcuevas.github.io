@@ -5,6 +5,7 @@ body{
     background-color: navajowhite;
      display: flex;
     justify-content: space-between; 
+    flex-basis: 100%;
     
 
 }
@@ -49,7 +50,7 @@ background-color: ghostwhite;;
     display: flex;
     padding: 12px 20px;
     margin: 5px;
-
+    position: relative;
 }
 
 .encabezado nav{
@@ -57,12 +58,14 @@ background-color: ghostwhite;;
     justify-content: space-around;
     align-items: right;
     padding: 12px 20px;
+   position: relative;
 }
 
 .encabezado nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 a{
@@ -189,10 +192,11 @@ p:first-of-type::first-letter{
 #social a {
     width: 0px;
     height: 0px;
-    display: inline-block;
+    display: flex;
     color: black;
     text-align: left;
     line-height: 30px;
+    position: relative;
 }
 
 
