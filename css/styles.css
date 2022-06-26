@@ -8,10 +8,10 @@ body{
 
 }
 
-  @media (min-width: 200px) {
+/*   @media (min-width: 200px) {
     main {
       flex-wrap: nowrap;
-    }
+    } */
 /* 
 .in-flex {
     flex: 1;
@@ -158,8 +158,8 @@ color: #c6b18d;
     margin-left: 05%;
     align-items: center;
     display: block;
-    padding: 5px;
-    margin: 5px;
+    padding: 5;
+    margin: 5;
 
 }
 }
@@ -180,7 +180,7 @@ p:first-of-type::first-letter{
     
 #social {
     width: 950px;
-    margin: 204px auto 225px auto;
+    margin: 50px auto 25px auto;
      /*margin: 204px auto 225px auto;*/
 
 }
